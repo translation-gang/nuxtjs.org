@@ -1,6 +1,6 @@
 # ru.nuxtjs.org
 
-Официальный русский перевод документации Nuxt.js.
+Официальный русский перевод документации Nuxt.js (техническая часть).
 
 Russian translation of primary Nuxt.js documentation site.
 Supported by [Translation Gang](https://github.com/translation-gang).
