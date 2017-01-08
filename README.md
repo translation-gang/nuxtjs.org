@@ -1,4 +1,10 @@
-# nuxtjs.org
+# ru.nuxtjs.org
+
+Официальный русский перевод документации Nuxt.js.
+
+Russian translation of primary Nuxt.js documentation site.
+Supported by [Translation Gang](https://github.com/translation-gang).
+Primary maintainer [Grigoriy Beziuk](https://gbezyuk.github.io).
 
 Static Generated Vuejs web application built with [nuxtjs](https://github.com/nuxt/nuxtjs) and hosted on Github Pages.
 
