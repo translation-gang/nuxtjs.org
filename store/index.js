@@ -23,9 +23,9 @@ const store = new Vuex.Store({
       if (isDev) {
         state.apiURI = 'http://localhost:4000'
       }
-      const resLang = await axios(state.apiURI + '/lang/en')
+      const resLang = await axios(state.apiURI + '/lang/ru')
       state.lang = resLang.data
-      const resMenu = await axios(state.apiURI + '/menu/en')
+      const resMenu = await axios(state.apiURI + '/menu/ru')
       state.menu = resMenu.data
     }
   }
