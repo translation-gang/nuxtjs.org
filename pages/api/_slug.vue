@@ -24,14 +24,14 @@ export default {
       res = await axios.get(store.state.apiURI + path)
     } catch (err) {
       if (err.response.status !== 404) {
-        return error({ statusCode: 500, message: 'An error occured' })
+        return error({ statusCode: 500, message: 'Произошла ошибка' })
       }
-      return error({ statusCode: 404, message: 'API page not found' })
+      return error({ statusCode: 404, message: 'Страница API не найдена' })
     }
     data.attrs = res.data.attrs
     data.body = res.data.body
-    if (!data.attrs.title) console.error(`[${path}] Please define a title in the front matter.`)
-    if (!data.attrs.description) console.error(`[${path}] Please define a description in the front matter.`)
+    if (!data.attrs.title) console.error(`[${path}] Пожалуйста, укажите заголовок (title) во вводной части.`)
+    if (!data.attrs.description) console.error(`[${path}] Пожалуйста, укажите описание (description) во вводной части.`)
     return data
   },
   head () {
